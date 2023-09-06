@@ -7,7 +7,7 @@ const NotFound = () => {
     <Container>
       <Row className="home">
         <div className="notfound">
-          <img src={notfound} alt="img" />
+          <img src={notfound} alt="img" className="img-fluid" />
         </div>
         <h3 className="oops">Ooops!!!!! Location Not Found</h3>
         <h2 className="oops">Try Again 🔁</h2>

@@ -7,7 +7,6 @@
 
 .body {
   color: white;
-  /* background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%); */
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
@@ -16,7 +15,7 @@
 }
 
 .boxx {
-  min-height: 85vh;
+  min-height: 90vh;
   background-color: rgba(0, 0, 0, 0.525);
   border-radius: 20px;
 }
@@ -97,6 +96,11 @@
   align-items: center;
 }
 
+.homedir {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .img-holder {
   margin-top: 50px !important;
   display: flex;
@@ -108,14 +112,9 @@
   text-transform: capitalize;
 }
 
-.homee {
-  height: 400px;
-  width: 500px;
-}
-
 .imgfolder {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .headd {
